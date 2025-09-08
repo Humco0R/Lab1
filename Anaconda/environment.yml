@@ -1,0 +1,14 @@
+name: env_anaconda
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - dash==3.2.0
+      - plotly==6.3.0
+      - requests==2.32.5
