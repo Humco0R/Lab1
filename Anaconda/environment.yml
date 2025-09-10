@@ -7,8 +7,11 @@ dependencies:
   - scipy
   - matplotlib
   - scikit-learn
+  - pandas
+  - seaborn
   - pip
   - pip:
       - dash==3.2.0
       - plotly==6.3.0
       - requests==2.32.5
+      - gdown
